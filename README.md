@@ -40,7 +40,7 @@
 
   # Deployment
 
-  This application is deployed using github pages https://ratalla816.github.io/critical-roles-kiosk/
+  This application is deployed using github pages https://ratalla816.github.io/TBD/
 
   # Usage
 
@@ -70,7 +70,7 @@
 
 # Screenshot
 
-![application screenshot](./assets/images/portfoliovid.gif)
+![application screenshot](./assets/images/TBD.gif)
 
 # Features
 
