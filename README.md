@@ -1,54 +1,92 @@
-# Professional Portfolio
+# Critical Roles Kiosk
 
-  ![badge](https://img.shields.io/github/languages/top/ratalla816/professional-portfolio)
+  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ratalla816/critical-roles-kiosk)
+  <br>
+  <br>
+  ![badge](https://img.shields.io/github/languages/top/ratalla816/critical-roles-kiosk)
   <br> 
-  ![badge](https://img.shields.io/github/languages/count/ratalla816/professional-portfolio)
+  ![badge](https://img.shields.io/github/languages/count/ratalla816/critical-roles-kiosk)
   <br>
-  ![badge](https://img.shields.io/github/issues/ratalla816/professional-portfolio)
+  ![badge](https://img.shields.io/github/issues/ratalla816/critical-roles-kiosk)
   <br>
-  ![badge](https://img.shields.io/github/issues-closed/ratalla816/professional-portfolio)
+  ![badge](https://img.shields.io/github/issues-closed/ratalla816/critical-roles-kiosk)
   <br>
-  ![badge](https://img.shields.io/github/last-commit/ratalla816/professional-portfolio)
+  ![badge](https://img.shields.io/github/last-commit/ratalla816/critical-roles-kiosk)
   <br>
   ![badge](https://img.shields.io/badge/license-MIT-important)
 
-Use HTML and CSS to develop a professional portfolio that satisfies a typical hiring manager's needs. 
+
+## Description
+   
+   I'm baby bushwick snackwave portland venmo hella DIY normcore flannel drinking vinegar semiotics yes plz bicycle rights fashion axe artisan. Sriracha seitan live-edge scenester locavore iPhone intelligentsia bushwick truffaut gochujang fixie. Hoodie cred ascot, tumblr poke tilde bicycle rights tousled hexagon XOXO twee fam ennui post-ironic bitters. Shoreditch literally cupping iceland next level cronut. Gluten-free truffaut shabby chic ramps hella marfa. Vibecession butcher tonx offal jawn.
+   
+ 
+  ## Table of Contents
+  - [Description](#description)
+  - [Documentation](#documentation)
+  - [Deployment](#deployment)
+  - [Usage](#usage)
+  - [Screenshot](#screenshot)
+  - [Features](#features)
+  - [Acknowledgements](#acknowledgements)
+  - [License](#license)
+  - [Contact](#contact)
+
+  # Documentation
+  ![Documentation](./assets/images/) 
+  <br>
+  ![Documentation](./assets/images/) 
+
+
+  # Deployment
+
+  This application is deployed using github pages https://ratalla816.github.io/critical-roles-kiosk/
+
+  # Usage
+
+  As a user, I want to: 
+  
+  * Fam hot chicken DSA palo santo, photo booth brunch shoreditch fashion axe viral.
+
+  * Tonx copper mug fam ascot, put a bird on it lyft hella. Venmo occupy jawn man bun.
+  
+  * Tacos cred pok pok, bodega boys VHS tbh lumbersexual leggings mumblecore air plant raclette.
+  
+
 
 ## Requirements
 
-* When the portfolio is loaded the user is presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them. 
+* Hell of intelligentsia artisan sus, blog tofu vape vinyl fam.
 
-* When the navigation links are clicked the UI scrolls to the corresponding section. 
+* Before they sold out kale chips small batch, affogato pork belly celiac disrupt.
 
-* When the "work" tab is clicked the UI scrolls to a section with titled images of the developer's applications. 
+* 3 wolf moon pour-over fixie solarpunk
 
-* When the application images are clicked the user is taken to the deployed application. 
+* Echo park kombucha retro, before they sold out art party offal flannel literally disrupt bespoke artisan.
 
-* The first application image should be larger in size than the other application images. 
+* Street art pok pok direct trade, vibecession taiyaki meditation distillery YOLO. 
 
-* When the portfolio application is resized or viewed on various screens and devices the user is presented with a responsive layout that adapts to the Viewport Grading Requirements. 
+* Fit bruh shaman DSA mixtape artisan, cold-pressed wolf.
 
-### Deployed Application Link
-
-https://ratalla816.github.io/professional-portfolio/
-
-### Deployed Application Screenshot
+# Screenshot
 
 ![application screenshot](./assets/images/portfoliovid.gif)
 
-#### Acknowledgements
+# Features
 
-* background art: "White Clouds During Daytime" by Dominik Schroder, courtesy of unsplash.com <https://unsplash.com/photos/FIKD9t5_5zQ>
-  
-* RUN BUDDY - KU Coding Bootcamp, Module 2 Activity
- © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+* Bitters pinterest pok pok offal. PBR&B normcore ennui kitsch salvia pork belly brunch sartorial semiotics banjo yuccie schlitz pok pok.
 
-* SEO-Refactor - KU Coding Bootcamp, Module 1 Challenge Assignment
- © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand Confidential and Proprietary. All Rights Reserved.
+# Acknowledgements
 
-#### MIT License
+* Food truck typewriter ascot unicorn actually. Slow-carb kombucha flexitarian chillwave etsy art party aesthetic beard Brooklyn fit deep v.
 
-Copyright (c) 2021 Rob Christopher Atalla
+# License
+
+Copyright (c) 2024 Rob Christopher Atalla
+
+![badge](https://img.shields.io/badge/license-MIT-important)
+  <br>
+Permission to use this application is granted under the MIT license. <https://opensource.org/licenses/MIT>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -67,3 +105,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+## Contact:
+Holler at me! <a href="mailto:rob.atalla@robatalla816.com">rob.atalla@robatalla816.com</a>
