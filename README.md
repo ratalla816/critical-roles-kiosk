@@ -60,6 +60,7 @@ QR code signage located at multiple locations near the entrance, break room, and
   * Read descriptions and view pictures of the critical role options available to me
   
   * Once I have decided which roles I want to get trained for, I want to send a request form to leadership so I can be vetted for the role  
+  
 
 
 # Screenshot
