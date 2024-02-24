@@ -3,7 +3,9 @@
   [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ratalla816/critical-roles-kiosk)
   <br>
   <br>
-  ![badge](https://img.shields.io/github/languages/top/ratalla816/critical-roles-kiosk) ![badge](https://img.shields.io/github/languages/count/ratalla816/critical-roles-kiosk)
+  ![badge](https://img.shields.io/github/languages/top/ratalla816/critical-roles-kiosk) 
+  <br>
+  ![badge](https://img.shields.io/github/languages/count/ratalla816/critical-roles-kiosk)
   <br>
   ![badge](https://img.shields.io/github/issues/ratalla816/critical-roles-kiosk) ![badge](https://img.shields.io/github/issues-closed/ratalla816/critical-roles-kiosk)
   <br>
