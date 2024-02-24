@@ -3,42 +3,51 @@
   [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ratalla816/critical-roles-kiosk)
   <br>
   <br>
-  ![badge](https://img.shields.io/github/languages/top/ratalla816/critical-roles-kiosk)
-  <br> 
-  ![badge](https://img.shields.io/github/languages/count/ratalla816/critical-roles-kiosk)
+  ![badge](https://img.shields.io/github/languages/top/ratalla816/critical-roles-kiosk) ![badge](https://img.shields.io/github/languages/count/ratalla816/critical-roles-kiosk)
   <br>
-  ![badge](https://img.shields.io/github/issues/ratalla816/critical-roles-kiosk)
-  <br>
-  ![badge](https://img.shields.io/github/issues-closed/ratalla816/critical-roles-kiosk)
+  ![badge](https://img.shields.io/github/issues/ratalla816/critical-roles-kiosk) ![badge](https://img.shields.io/github/issues-closed/ratalla816/critical-roles-kiosk)
   <br>
   ![badge](https://img.shields.io/github/last-commit/ratalla816/critical-roles-kiosk)
   <br>
-  ![badge](https://img.shields.io/badge/license-MIT-important)
+  ![badge](https://img.shields.io/badge/license-Apache2.0-important)
 
 
-## Description
-   
-   I'm baby bushwick snackwave portland venmo hella DIY normcore flannel drinking vinegar semiotics yes plz bicycle rights fashion axe artisan. Sriracha seitan live-edge scenester locavore iPhone intelligentsia bushwick truffaut gochujang fixie. Hoodie cred ascot, tumblr poke tilde bicycle rights tousled hexagon XOXO twee fam ennui post-ironic bitters. Shoreditch literally cupping iceland next level cronut. Gluten-free truffaut shabby chic ramps hella marfa. Vibecession butcher tonx offal jawn.
-   
+# Description
+
+## What:
+A web application that can be easily accessed by any web-enabled device (phone, computer, tablet, etc) inside or outside of the facility that allows associates to sign up for critical roles training. 
+
+## Why:
+The goal is to close all critical role gaps within the next 90 days and create an applicant-funnel that can be followed up on later for those that do not currently meet vetting criteria.
+
+## Who:
+All tier 1’s may apply.
+
+## How:
+The associate scans a QR code located at multiple locations near the entrance, break room, and start up area which brings up the application.
+<br>
+The associates are able to review the various critical role descriptions listed on the website. Once they have picked which roles that interest them, they fill out the form on the bottom of the page indicating their login, which roles they want, and their UPT balance. 
+<br>
+Once submitted, an email is sent to leadership containing all the information submitted in the form which managers use for vetting.
+
+## When:
+Starting on or around February 27th
+
+## Where:
+QR code signage located at multiple locations near the entrance, break room, and start up area.
  
   ## Table of Contents
   - [Description](#description)
-  - [Documentation](#documentation)
   - [Deployment](#deployment)
   - [Usage](#usage)
   - [Screenshot](#screenshot)
   - [Features](#features)
+  - [Promotion_Collateral](#promotion_collateral)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
   - [Contact](#contact)
 
-  # Documentation
-  ![Documentation](./assets/images/) 
-  <br>
-  ![Documentation](./assets/images/) 
-
-
-  # Deployment
+  # Deployment 
 
   This application is deployed using github pages https://ratalla816.github.io/critical-roles-kiosk
 
@@ -46,66 +55,55 @@
 
   As a user, I want to: 
   
-  * Fam hot chicken DSA palo santo, photo booth brunch shoreditch fashion axe viral.
+  * Scan a QR code to open the application on my mobile device
 
-  * Tonx copper mug fam ascot, put a bird on it lyft hella. Venmo occupy jawn man bun.
+  * Read descriptions and view pictures of the critical role options available to me
   
-  * Tacos cred pok pok, bodega boys VHS tbh avocado leggings mumblecore air plant raclette.
-  
+  * Once I have decided which roles I want to get trained for, I want to send a request form to leadership so I can be vetted for the role  
 
-
-## Requirements
-
-* Hell of intelligentsia artisan sus, blog tofu vape vinyl fam.
-
-* Before they sold out kale chips small batch, affogato pork belly celiac disrupt.
-
-* 3 wolf moon pour-over fixie solarpunk
-
-* Echo park kombucha retro, before they sold out art party offal flannel literally disrupt bespoke artisan.
-
-* Street art pok pok direct trade, vibecession taiyaki meditation distillery YOLO. 
-
-* Fit bruh shaman DSA mixtape artisan, cold-pressed wolf.
 
 # Screenshot
 
-![application screenshot](./assets/images/TBD.gif)
+![application screenshot](./assets/images/video.gif)![screenshot](./assets/images/video2.gif)
+
 
 # Features
 
-* Bitters pinterest pok pok offal. PBR&B normcore ennui kitsch salvia pork belly brunch sartorial semiotics banjo yuccie schlitz pok pok.
+* Responsive layout that accommodates smart phones, tablets, desktops and laptops
+* Sticky navbar allows users to easily navigate to all sections  
+* Optimized performance to provide a quality experience for mobile users
+* Detailed descriptions of each critical role option with images
+* Embedded third-party submission form with error handling and smooth scroll functionality provided via CDN
+
+![screenshot](./assets/images/lighthouse.png)
+
+ # Promotion_Collateral
+
+![Promotion_Collateral](./assets/images/CRK_ACID_Slide_1.jpg) ![Promotion Collateral](./assets/images/CRK_ACID_Slide_2.jpg)
+<br>
+![Promotion Collateral](./assets/images/QR_code_signage.jpg)
 
 # Acknowledgements
 
-* Food truck typewriter ascot unicorn actually. Slow-carb kombucha flexitarian chillwave etsy art party aesthetic beard Brooklyn fit deep v.
+* John Abel and Ali Ewing-Meeler for supporting this project
+* Dakota Grey for the great start-up announcements and facilitating a buttery rollout
 
 # License
 
 Copyright (c) 2024 Rob Christopher Atalla
 
-![badge](https://img.shields.io/badge/license-MIT-important)
+![badge](https://img.shields.io/badge/license-Apache2.0-important)
   <br>
-Permission to use this application is granted under the MIT license. <https://opensource.org/licenses/MIT>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at <https://www.apache.org/licenses/LICENSE-2.0>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 ## Contact:
-Holler at me! <a href="mailto:rob.atalla@robatalla816.com">rob.atalla@robatalla816.com</a>
+Holler at me! <a href="mailto:robiatal@amazon.com">robiatal@amazon.com</a>
