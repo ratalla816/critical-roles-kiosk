@@ -279,13 +279,13 @@
     border-radius: 25px;
   }
 
-   .git img {
+   /* .git img { */
     /* length: 64px; */
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     width: 64px !important;
     height: 64px !important;
     align-items: center !important;
-  }
+  } */
 
  
   .page img {
