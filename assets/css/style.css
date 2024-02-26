@@ -626,12 +626,12 @@
   /* media queries for tablets and mobile phones *OK* */
   @media screen and (max-width: 768px) {
     
-    header {
-        /* padding-bottom: 0; */
-        /* justify-content: center; */
-        /* position: relative; */
+    /* header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
         position: sticky !important;
-    }
+    } */
     
     section {
       padding: 30px 15px;
@@ -668,7 +668,7 @@
   
   .header {
     margin-right: -82PX !important;
-    position: sticky !important;
+    /* position: sticky !important; */
   }
   
   .hero {
@@ -729,7 +729,7 @@
       padding: 20px 5px;
       background-position: 100% !important;
       margin-right: 5px !important;
-      position: sticky !important;
+      /* position: sticky !important; */
     }
   
     .hero {
@@ -793,9 +793,9 @@
   /* media queries for mobile phones and smaller *OK* */
   @media screen and (max-width: 375px) {
   
-    .header {
+    /* .header {
        position: sticky !important;
-      }
+      } */
    
     .hero-form button {
       width: 100%;
