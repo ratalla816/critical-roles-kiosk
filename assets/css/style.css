@@ -507,7 +507,8 @@
     header {
       padding-bottom: 0;
       justify-content: center;
-      position: relative;
+      /* position: relative; */
+      position: sticky;
   }
   
   header h1 {
