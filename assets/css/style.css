@@ -508,7 +508,7 @@
       padding-bottom: 0;
       justify-content: center;
       /* position: relative; */
-      position: sticky;
+      position: sticky !important;
   }
   
   header h1 {
@@ -516,11 +516,6 @@
     text-align: center;
   }
 
-  /* header nav {
-    position: sticky !important;
-    margin: 15px 0;
-  } */
-  
   header nav ul {
     margin-top: 20px;
     width: 100%;
