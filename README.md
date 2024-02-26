@@ -20,7 +20,7 @@
 A web application that can be easily accessed by any web-enabled device (phone, computer, tablet, etc) inside or outside of the facility that allows associates to sign up for critical roles training. 
 
 ## Why:
-The goal is to close all critical role gaps within the next 90 days and create an applicant-funnel that can be followed up on later for those that do not currently meet vetting criteria.
+The goal is to close all critical role gaps within the next 90 days and create an applicant funnel that can be followed up on later for those that do not currently meet vetting criteria.
 
 ## Who:
 All tier 1’s may apply.
