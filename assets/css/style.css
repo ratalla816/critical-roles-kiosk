@@ -516,7 +516,7 @@
   }
 
   header nav {
-    position: sticky;
+    position: sticky !important;
     /* margin: 15px 0; */
   }
   
