@@ -515,10 +515,10 @@
     text-align: center;
   }
 
-  header nav {
+  /* header nav {
     position: sticky !important;
-    /* margin: 15px 0; */
-  }
+    margin: 15px 0;
+  } */
   
   header nav ul {
     margin-top: 20px;
