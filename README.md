@@ -88,8 +88,9 @@ QR code signage located at multiple locations near the entrance, break room, and
 
 # Acknowledgements
 
-* John Abel and Ali Ewing-Meeler for supporting this project
-* Dakota Grey for the great start-up announcements and facilitating a buttery rollout
+* Juan Estrada (ujuanest) for giving me the idea.
+* John Abel and Ali Ewing-Meeler for supporting this project.
+* Dakota Grey for the great start-up announcements and facilitating a buttery rollout.
 
 # License
 
