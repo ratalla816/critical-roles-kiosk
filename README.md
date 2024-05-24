@@ -33,7 +33,7 @@ The associates are able to review the various critical role descriptions listed 
 Once submitted, an email is sent to leadership containing all the information submitted in the form which managers use for vetting.
 
 ## When:
-Starting on or around February 27th
+Entered production on February 27th, 2024
 
 ## Where:
 QR code signage located at multiple locations near the entrance, break room, and start up area.
@@ -89,7 +89,7 @@ QR code signage located at multiple locations near the entrance, break room, and
 # Acknowledgements
 
 * Juan Estrada for helping me come up with the idea. 
-* John Abel for supporting this project.
+* John Abel and Mike Ludwick for supporting this project.
 * Dakota Grey for the great start-up announcements and facilitating a buttery rollout.
 
 # License
