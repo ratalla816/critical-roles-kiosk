@@ -732,3 +732,41 @@
 2026-11-07 01:34:11,267 [INFO] 127.0.0.1 - - [07/Nov/2026 01:34:11] "POST /submit HTTP/1.1" 200 -
 2026-11-07 01:34:45,625 [INFO] New submission — rssalami | upt=31 | roles=['Sort Slide', 'Crossdock', 'Shuttle Dump', 'Fluid Unloader']
 2026-11-07 01:34:45,663 [INFO] 127.0.0.1 - - [07/Nov/2026 01:34:45] "POST /submit HTTP/1.1" 200 -
+2026-11-07 02:41:51,228 [INFO] Starting MCI5 Critical Roles Kiosk on port 5001...
+2026-11-07 02:41:51,276 [INFO] WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.195:5001
+2026-11-07 02:41:51,276 [INFO] Press CTRL+C to quit
+2026-11-07 02:42:07,345 [ERROR] Exception on /health [GET]
+Traceback (most recent call last):
+  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\app.py", line 589, in health
+    subs = load_submissions()
+  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\app.py", line 82, in load_submissions
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\Commander\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\Commander\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Commander\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Commander\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 12 column 1 (char 164)
+2026-11-07 02:42:07,350 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:07] "GET /health HTTP/1.1" 500 -
