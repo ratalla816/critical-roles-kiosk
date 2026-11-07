@@ -9,6 +9,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "id": "cc614737",
     "timestamp": "2026-11-07 01:13:43",
     "login": "ujuanest",
@@ -18,10 +19,22 @@
       "Learning Ambassador",
       "Waterspider",
       "Smalls"
+=======
+    "id": "5885f2db",
+    "timestamp": "2026-11-07 01:34:11",
+    "login": "patchrod",
+    "upt": "79",
+    "roles": [
+      "Problem Solve",
+      "Learning Ambassador",
+      "Smalls",
+      "Flow Scanner"
+>>>>>>> 5fff269c0ae6cd423c2255f058b48895069565f0
     ],
     "status": "New",
     "notes": "",
     "flag": false,
+<<<<<<< HEAD
     "updated_at": "2026-11-07 01:13:43",
     "updated_by": ""
   },
@@ -32,11 +45,30 @@
     "upt": "0",
     "roles": [
       "Sort Slide"
+=======
+    "updated_at": "2026-11-07 01:34:11",
+    "updated_by": ""
+  },
+  {
+    "id": "dc4e00a6",
+    "timestamp": "2026-11-07 01:34:45",
+    "login": "rssalami",
+    "upt": "31",
+    "roles": [
+      "Sort Slide",
+      "Crossdock",
+      "Shuttle Dump",
+      "Fluid Unloader"
+>>>>>>> 5fff269c0ae6cd423c2255f058b48895069565f0
     ],
     "status": "New",
     "notes": "",
     "flag": false,
+<<<<<<< HEAD
     "updated_at": "2026-11-07 01:16:18",
+=======
+    "updated_at": "2026-11-07 01:34:45",
+>>>>>>> 5fff269c0ae6cd423c2255f058b48895069565f0
     "updated_by": ""
   }
 ]
