@@ -770,3 +770,20 @@ Traceback (most recent call last):
                ~~~~~~~~~~~~~~^^^^^^^^
 json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 12 column 1 (char 164)
 2026-11-07 02:42:07,350 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:07] "GET /health HTTP/1.1" 500 -
+2026-11-07 02:42:24,381 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:24] "GET /health HTTP/1.1" 200 -
+2026-11-07 02:42:33,156 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET / HTTP/1.1" 200 -
+2026-11-07 02:42:33,429 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/MCI5_Logo.svg HTTP/1.1" 200 -
+2026-11-07 02:42:33,435 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/css/style.css HTTP/1.1" 200 -
+2026-11-07 02:42:33,436 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/XD.jpg HTTP/1.1" 200 -
+2026-11-07 02:42:33,444 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/shuttle-dump.jpg HTTP/1.1" 200 -
+2026-11-07 02:42:33,445 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/fluid-load-cropped.jpg HTTP/1.1" 200 -
+2026-11-07 02:42:33,456 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/waterspider2.jpg HTTP/1.1" 200 -
+2026-11-07 02:42:33,456 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/problem-solver.jpg HTTP/1.1" 200 -
+2026-11-07 02:42:33,457 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/smalls2.png HTTP/1.1" 200 -
+2026-11-07 02:42:33,468 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/go-fast.png HTTP/1.1" 200 -
+2026-11-07 02:42:33,468 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/stager_pic.jpg HTTP/1.1" 200 -
+2026-11-07 02:42:33,504 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/ambo.jpg HTTP/1.1" 200 -
+2026-11-07 02:42:33,511 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/billy2.jpg HTTP/1.1" 200 -
+2026-11-07 02:42:33,512 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/sort-slide.jpg HTTP/1.1" 200 -
+2026-11-07 02:44:48,471 [INFO] New submission — roba | upt=15 | roles=['Problem Solve', 'Sort Slide']
+2026-11-07 02:44:48,505 [INFO] 127.0.0.1 - - [07/Nov/2026 02:44:48] "POST /submit HTTP/1.1" 200 -
