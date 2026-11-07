@@ -9,14 +9,16 @@ import json
 import csv
 import io
 import uuid
+import sys
 import logging
 import subprocess
 from datetime import datetime
 from flask import Flask, render_template, request, jsonify, Response
 
 # ── Slack notifier path ───────────────────────────────────────────────────────
-PYTHON = "/home/robiatal/.local/share/mise/shims/python3"
-NOTIFY = os.path.expanduser("~/critical-roles-kiosk/slack_notify.py")
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+PYTHON = sys.executable
+NOTIFY = os.path.join(APP_DIR, "slack_notify.py")
 
 def slack_notify(ntype, login, **kwargs):
     """Fire-and-forget Slack notification."""
@@ -29,9 +31,10 @@ def slack_notify(ntype, login, **kwargs):
         log.error(f"Slack notify dispatch failed: {e}")
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-APP_DIR          = os.path.expanduser("~/critical-roles-kiosk")
-LOG_FILE         = os.path.join(APP_DIR, "kiosk.log")
-SUBMISSIONS_FILE = os.path.expanduser("~/shared/crk_submissions.json")
+APP_DIR = os.environ.get("CRK_APP_DIR", APP_DIR)
+LOG_FILE = os.path.join(APP_DIR, "kiosk.log")
+SUBMISSIONS_FILE = os.environ.get("CRK_SUBMISSIONS_FILE", os.path.join(APP_DIR, "submissions.json"))
+os.makedirs(APP_DIR, exist_ok=True)
 
 # ── Logging ───────────────────────────────────────────────────────────────────
 logging.basicConfig(

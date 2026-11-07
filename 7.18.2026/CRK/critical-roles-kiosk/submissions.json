@@ -7,5 +7,36 @@
       "GTDR Certification",
       "Crossdock"
     ]
+  },
+  {
+    "id": "cc614737",
+    "timestamp": "2026-11-07 01:13:43",
+    "login": "ujuanest",
+    "upt": "20",
+    "roles": [
+      "Problem Solve",
+      "Learning Ambassador",
+      "Waterspider",
+      "Smalls"
+    ],
+    "status": "New",
+    "notes": "",
+    "flag": false,
+    "updated_at": "2026-11-07 01:13:43",
+    "updated_by": ""
+  },
+  {
+    "id": "59548885",
+    "timestamp": "2026-11-07 01:16:18",
+    "login": "gichini",
+    "upt": "0",
+    "roles": [
+      "Sort Slide"
+    ],
+    "status": "New",
+    "notes": "",
+    "flag": false,
+    "updated_at": "2026-11-07 01:16:18",
+    "updated_by": ""
   }
 ]
