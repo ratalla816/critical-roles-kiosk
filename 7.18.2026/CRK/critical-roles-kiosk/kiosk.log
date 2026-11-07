@@ -706,7 +706,7 @@
 2026-11-07 01:13:03,378 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/sort-slide.jpg HTTP/1.1" 200 -
 2026-11-07 01:13:03,379 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/ambo.jpg HTTP/1.1" 200 -
 2026-11-07 01:13:03,918 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/favicon.ico HTTP/1.1" 404 -
-2026-11-07 01:13:43,099 [INFO] New submission — ujuanest | upt=20 | roles=['Problem Solve', 'Learning Ambassador', 'Waterspider', 'Smalls']
+2026-11-07 01:13:43,099 [INFO] New submission ï¿½ ujuanest | upt=20 | roles=['Problem Solve', 'Learning Ambassador', 'Waterspider', 'Smalls']
 2026-11-07 01:13:43,124 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:43] "POST /submit HTTP/1.1" 200 -
 2026-11-07 01:14:26,311 [INFO] 127.0.0.1 - - [07/Nov/2026 01:14:26] "GET /assets/images/XD.jpg HTTP/1.1" 200 -
 2026-11-07 01:14:26,575 [INFO] 127.0.0.1 - - [07/Nov/2026 01:14:26] "GET /favicon.ico HTTP/1.1" 404 -
@@ -726,64 +726,9 @@
 2026-11-07 01:15:01,113 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/go-fast.png HTTP/1.1" 200 -
 2026-11-07 01:15:01,118 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/stager_pic.jpg HTTP/1.1" 200 -
 2026-11-07 01:15:02,786 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:02] "GET /assets/favicon.ico HTTP/1.1" 404 -
-2026-11-07 01:16:18,122 [INFO] New submission — gichini | upt=0 | roles=['Sort Slide']
+2026-11-07 01:16:18,122 [INFO] New submission ï¿½ gichini | upt=0 | roles=['Sort Slide']
 2026-11-07 01:16:18,141 [INFO] 127.0.0.1 - - [07/Nov/2026 01:16:18] "POST /submit HTTP/1.1" 200 -
-2026-11-07 01:34:11,245 [INFO] New submission — patchrod | upt=79 | roles=['Problem Solve', 'Learning Ambassador', 'Smalls', 'Flow Scanner']
+2026-11-07 01:34:11,245 [INFO] New submission ï¿½ patchrod | upt=79 | roles=['Problem Solve', 'Learning Ambassador', 'Smalls', 'Flow Scanner']
 2026-11-07 01:34:11,267 [INFO] 127.0.0.1 - - [07/Nov/2026 01:34:11] "POST /submit HTTP/1.1" 200 -
-2026-11-07 01:34:45,625 [INFO] New submission — rssalami | upt=31 | roles=['Sort Slide', 'Crossdock', 'Shuttle Dump', 'Fluid Unloader']
+2026-11-07 01:34:45,625 [INFO] New submission ï¿½ rssalami | upt=31 | roles=['Sort Slide', 'Crossdock', 'Shuttle Dump', 'Fluid Unloader']
 2026-11-07 01:34:45,663 [INFO] 127.0.0.1 - - [07/Nov/2026 01:34:45] "POST /submit HTTP/1.1" 200 -
-2026-11-07 02:41:51,228 [INFO] Starting MCI5 Critical Roles Kiosk on port 5001...
-2026-11-07 02:41:51,276 [INFO] WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5001
- * Running on http://192.168.1.195:5001
-2026-11-07 02:41:51,276 [INFO] Press CTRL+C to quit
-2026-11-07 02:42:07,345 [ERROR] Exception on /health [GET]
-Traceback (most recent call last):
-  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
-  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\app.py", line 589, in health
-    subs = load_submissions()
-  File "C:\Users\Commander\projects\critical-roles-kiosk\7.18.2026\CRK\critical-roles-kiosk\app.py", line 82, in load_submissions
-    return json.load(f)
-           ~~~~~~~~~^^^
-  File "C:\Users\Commander\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 293, in load
-    return loads(fp.read(),
-        cls=cls, object_hook=object_hook,
-        parse_float=parse_float, parse_int=parse_int,
-        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
-  File "C:\Users\Commander\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ~~~~~~~~~~~~~~~~~~~~~~~^^^
-  File "C:\Users\Commander\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Commander\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 361, in raw_decode
-    obj, end = self.scan_once(s, idx)
-               ~~~~~~~~~~~~~~^^^^^^^^
-json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 12 column 1 (char 164)
-2026-11-07 02:42:07,350 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:07] "GET /health HTTP/1.1" 500 -
-2026-11-07 02:42:24,381 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:24] "GET /health HTTP/1.1" 200 -
-2026-11-07 02:42:33,156 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET / HTTP/1.1" 200 -
-2026-11-07 02:42:33,429 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/MCI5_Logo.svg HTTP/1.1" 200 -
-2026-11-07 02:42:33,435 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/css/style.css HTTP/1.1" 200 -
-2026-11-07 02:42:33,436 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/XD.jpg HTTP/1.1" 200 -
-2026-11-07 02:42:33,444 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/shuttle-dump.jpg HTTP/1.1" 200 -
-2026-11-07 02:42:33,445 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/fluid-load-cropped.jpg HTTP/1.1" 200 -
-2026-11-07 02:42:33,456 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/waterspider2.jpg HTTP/1.1" 200 -
-2026-11-07 02:42:33,456 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/problem-solver.jpg HTTP/1.1" 200 -
-2026-11-07 02:42:33,457 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/smalls2.png HTTP/1.1" 200 -
-2026-11-07 02:42:33,468 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/go-fast.png HTTP/1.1" 200 -
-2026-11-07 02:42:33,468 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/stager_pic.jpg HTTP/1.1" 200 -
-2026-11-07 02:42:33,504 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/ambo.jpg HTTP/1.1" 200 -
-2026-11-07 02:42:33,511 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/billy2.jpg HTTP/1.1" 200 -
-2026-11-07 02:42:33,512 [INFO] 127.0.0.1 - - [07/Nov/2026 02:42:33] "GET /assets/images/sort-slide.jpg HTTP/1.1" 200 -
-2026-11-07 02:44:48,471 [INFO] New submission — roba | upt=15 | roles=['Problem Solve', 'Sort Slide']
-2026-11-07 02:44:48,505 [INFO] 127.0.0.1 - - [07/Nov/2026 02:44:48] "POST /submit HTTP/1.1" 200 -
