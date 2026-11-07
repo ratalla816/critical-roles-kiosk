@@ -684,3 +684,47 @@
 [kiosk] Already running (PID 190724)
 [kiosk] Already running (PID 190724)
 [kiosk] Already running (PID 190724)
+2026-11-07 01:12:39,248 [INFO] Starting MCI5 Critical Roles Kiosk on port 5001...
+2026-11-07 01:12:39,290 [INFO] WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.195:5001
+2026-11-07 01:12:39,291 [INFO] Press CTRL+C to quit
+2026-11-07 01:12:55,143 [INFO] 127.0.0.1 - - [07/Nov/2026 01:12:55] "GET /health HTTP/1.1" 200 -
+2026-11-07 01:13:03,001 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET / HTTP/1.1" 200 -
+2026-11-07 01:13:03,285 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/MCI5_Logo.svg HTTP/1.1" 200 -
+2026-11-07 01:13:03,292 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/XD.jpg HTTP/1.1" 200 -
+2026-11-07 01:13:03,292 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/problem-solver.jpg HTTP/1.1" 200 -
+2026-11-07 01:13:03,302 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/shuttle-dump.jpg HTTP/1.1" 200 -
+2026-11-07 01:13:03,302 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/fluid-load-cropped.jpg HTTP/1.1" 200 -
+2026-11-07 01:13:03,309 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/css/style.css HTTP/1.1" 200 -
+2026-11-07 01:13:03,315 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/waterspider2.jpg HTTP/1.1" 200 -
+2026-11-07 01:13:03,316 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/smalls2.png HTTP/1.1" 200 -
+2026-11-07 01:13:03,321 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/go-fast.png HTTP/1.1" 200 -
+2026-11-07 01:13:03,325 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/stager_pic.jpg HTTP/1.1" 200 -
+2026-11-07 01:13:03,372 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/billy2.jpg HTTP/1.1" 200 -
+2026-11-07 01:13:03,378 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/sort-slide.jpg HTTP/1.1" 200 -
+2026-11-07 01:13:03,379 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/images/ambo.jpg HTTP/1.1" 200 -
+2026-11-07 01:13:03,918 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:03] "GET /assets/favicon.ico HTTP/1.1" 404 -
+2026-11-07 01:13:43,099 [INFO] New submission — ujuanest | upt=20 | roles=['Problem Solve', 'Learning Ambassador', 'Waterspider', 'Smalls']
+2026-11-07 01:13:43,124 [INFO] 127.0.0.1 - - [07/Nov/2026 01:13:43] "POST /submit HTTP/1.1" 200 -
+2026-11-07 01:14:26,311 [INFO] 127.0.0.1 - - [07/Nov/2026 01:14:26] "GET /assets/images/XD.jpg HTTP/1.1" 200 -
+2026-11-07 01:14:26,575 [INFO] 127.0.0.1 - - [07/Nov/2026 01:14:26] "GET /favicon.ico HTTP/1.1" 404 -
+2026-11-07 01:14:40,630 [INFO] 127.0.0.1 - - [07/Nov/2026 01:14:40] "GET /assets/images/sort-slide.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:01,032 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET / HTTP/1.1" 200 -
+2026-11-07 01:15:01,067 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/css/style.css HTTP/1.1" 200 -
+2026-11-07 01:15:01,071 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/MCI5_Logo.svg HTTP/1.1" 200 -
+2026-11-07 01:15:01,075 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/problem-solver.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:01,079 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/ambo.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:01,082 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/billy2.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:01,086 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/XD.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:01,086 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/sort-slide.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:01,089 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/shuttle-dump.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:01,101 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/fluid-load-cropped.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:01,104 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/waterspider2.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:01,109 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/smalls2.png HTTP/1.1" 200 -
+2026-11-07 01:15:01,113 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/go-fast.png HTTP/1.1" 200 -
+2026-11-07 01:15:01,118 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:01] "GET /assets/images/stager_pic.jpg HTTP/1.1" 200 -
+2026-11-07 01:15:02,786 [INFO] 127.0.0.1 - - [07/Nov/2026 01:15:02] "GET /assets/favicon.ico HTTP/1.1" 404 -
+2026-11-07 01:16:18,122 [INFO] New submission — gichini | upt=0 | roles=['Sort Slide']
+2026-11-07 01:16:18,141 [INFO] 127.0.0.1 - - [07/Nov/2026 01:16:18] "POST /submit HTTP/1.1" 200 -
