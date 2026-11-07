@@ -67,7 +67,23 @@ QR code signage located at multiple locations near the entrance, break room, and
 
 # Screenshot
 
-![application screenshot](./assets/images/video.gif)![screenshot](./assets/images/video2.gif)
+![screenshot](./assets/images/GitHub-Mark-docs/pic1.jpg)
+![screenshot](./assets/images/GitHub-Mark-docs/pic2.jpg)
+<br>
+![screenshot](./assets/images/GitHub-Mark-docs/pic3.jpg)
+![screenshot](./assets/images/GitHub-Mark-docs/pic4.jpg)
+<br>
+![screenshot](./assets/images/GitHub-Mark-docs/pic5_blurred.jpg)
+
+<!-- ![application screenshot](./assets/images/video.gif)![screenshot](./assets/images/video2.gif) -->
+<!-- <br> -->
+<!-- ![screenshot](./assets/images/GitHub-Mark-docs/pic1.jpg) -->
+<!-- ![screenshot](./assets/images/GitHub-Mark-docs/pic2.jpg) -->
+<!-- <br> -->
+<!-- ![screenshot](./assets/images/GitHub-Mark-docs/pic3.jpg) -->
+<!-- ![screenshot](./assets/images/GitHub-Mark-docs/pic4.jpg) -->
+<!-- <br> -->
+<!-- ![screenshot](./assets/images/GitHub-Mark-docs/pic5.jpg) -->
 
 
 # Features
