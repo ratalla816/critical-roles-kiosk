@@ -75,7 +75,7 @@ QR code signage located at multiple locations near the entrance, break room, and
 <br>
 ![screenshot](./assets/images/GitHub-Mark-docs/pic5_blurred.jpg)
 
-<!-- ![application screenshot](./assets/images/video.gif)![screenshot](./assets/images/video2.gif) -->
+![application screenshot](./assets/images/scrncap.gif)
 <!-- <br> -->
 <!-- ![screenshot](./assets/images/GitHub-Mark-docs/pic1.jpg) -->
 <!-- ![screenshot](./assets/images/GitHub-Mark-docs/pic2.jpg) -->
@@ -94,7 +94,8 @@ QR code signage located at multiple locations near the entrance, break room, and
 * Detailed descriptions of each critical role option with images
 * Embedded third-party submission form with error handling and smooth scroll functionality provided via CDN
 
-![screenshot](./assets/images/lighthouse.png)
+![screenshot](./assets/images/CRK_lthse.png)
+
 
  # Promotion_Collateral
 
@@ -127,3 +128,4 @@ limitations under the License.
 
 ## Contact:
 Holler at me! <a href="mailto:robiatal@amazon.com">robiatal@amazon.com</a>
+
